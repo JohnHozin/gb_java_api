@@ -8,7 +8,7 @@ public class Main1 {
         int[] arr = new int[20];
         Random rnd = new Random();
         for (int i = 0; i < arr.length; i++) {
-            arr[i] = (int) rnd.nextInt(0, 2);
+            arr[i] = rnd.nextInt(0, 2);
         }
 
         int chet = 0;
@@ -33,6 +33,5 @@ public class Main1 {
         for (int i = 0; i < max; i++) {
             System.out.print(1);
         }
-
     }
 }
