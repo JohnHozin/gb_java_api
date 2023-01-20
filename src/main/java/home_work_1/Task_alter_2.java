@@ -20,13 +20,13 @@ public class Task_alter_2 {
             n++;
         }
 
-        ArrayList<Integer> simple_numbers = new ArrayList<>();
+        ArrayList<Integer> simpleNumbers = new ArrayList<>();
         //System.out.println(Arrays.toString(arr));
         for (int i = 0; i < 1000; i++) {
             if (arr[i] !=0){
-                simple_numbers.add(arr[i]);
+                simpleNumbers.add(arr[i]);
             }
         }
-        System.out.println(simple_numbers);
+        System.out.println(simpleNumbers);
     }
 }

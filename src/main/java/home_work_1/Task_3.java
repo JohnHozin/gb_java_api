@@ -14,15 +14,15 @@ public class Task_3 {
 
         System.out.println(Arrays.toString(nums));
 
-        int right_index = nums.length - 1;
+        int rightIndex = nums.length - 1;
         for (int i = 0; i < nums.length; i++) {
-            if (i <= right_index) {
-                if (nums[i] == val && nums[right_index] != val) {
-                    nums[i] = nums[right_index];
-                    nums[right_index] = val;
+            if (i <= rightIndex) {
+                if (nums[i] == val && nums[rightIndex] != val) {
+                    nums[i] = nums[rightIndex];
+                    nums[rightIndex] = val;
                 }
-                if (nums[right_index] == val) {
-                    right_index--;
+                if (nums[rightIndex] == val) {
+                    rightIndex--;
                     i--;
                 }
             }

@@ -10,14 +10,14 @@ public class Task_1 {
             arr[i] = rnd.nextInt(-999, 1000);
         }
 
-        int min_value = 0;
-        int max_value = 0;
+        int minValue = 0;
+        int maxValue = 0;
         for (int i = 0; i < arr.length; i++) {
-            min_value = Math.min(min_value, arr[i]);
-            max_value = Math.max(max_value, arr[i]);
+            minValue = Math.min(minValue, arr[i]);
+            maxValue = Math.max(maxValue, arr[i]);
         }
 
-        System.out.println("Максимальный элемент: " + min_value);
-        System.out.println("Минимальный элемент: " + max_value);
+        System.out.println("Максимальный элемент: " + minValue);
+        System.out.println("Минимальный элемент: " + maxValue);
     }
 }
