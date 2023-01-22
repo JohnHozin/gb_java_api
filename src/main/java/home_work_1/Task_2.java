@@ -9,15 +9,7 @@ public class Task_2 {
         if (scanner.hasNextInt()) {
             int year = scanner.nextInt();
             if (year >= 0) {
-                if (year % 400 == 0) {
-                    System.out.println(true);
-                } else if (year % 100 == 0) {
-                    System.out.println(false);
-                } else if (year % 4 == 0) {
-                    System.out.println(true);
-                } else {
-                    System.out.println(false);
-                }
+                System.out.println(isBissextile(year));
             } else {
                 System.out.println("Ошибка! Отрицательное число!");
             }
@@ -25,4 +17,13 @@ public class Task_2 {
             System.out.println("Ошибка ввода!");
         }
     }
+
+    static boolean isBissextile(int year) {
+        if (year % 400 == 0) {
+            return true;
+        } else if (year % 100 == 0) {
+            return false;
+        } else return year % 4 == 0;
+    }
+
 }
