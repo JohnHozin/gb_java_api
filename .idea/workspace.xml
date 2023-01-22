@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="249ee785-87f7-4281-a92b-ab1d9f4f9c4c" name="Changes" comment="make hw">
+    <list default="true" id="249ee785-87f7-4281-a92b-ab1d9f4f9c4c" name="Changes" comment="make hw(all)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/other/Task_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/home_work_1/Task_alter_4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,16 +52,16 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/javaProjects/java32&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor.code.editing&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Task_alter_4">
-    <configuration name="Task_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="home_work_1.Task_3" />
+  <component name="RunManager" selected="Application.Task_1">
+    <configuration name="Task_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="other.Task_1" />
       <module name="gb_java__api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="home_work_1.*" />
+          <option name="PATTERN" value="other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task_1" />
         <item itemvalue="Application.Task_alter_4" />
         <item itemvalue="Application.Task_alter_3" />
         <item itemvalue="Application.Task_alter_1" />
         <item itemvalue="Application.Task_alter_2" />
-        <item itemvalue="Application.Task_3" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +158,10 @@
       <workItem from="1674150175478" duration="5270000" />
       <workItem from="1674155459420" duration="5396000" />
       <workItem from="1674161122946" duration="4301000" />
-      <workItem from="1674192654916" duration="10099000" />
+      <workItem from="1674192654916" duration="10745000" />
+      <workItem from="1674305469181" duration="1500000" />
+      <workItem from="1674406519842" duration="1198000" />
+      <workItem from="1674407733090" duration="4772000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1674154713374</created>
@@ -192,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674165407988</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="make hw(all)">
+      <created>1674203171098</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674203171098</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +220,8 @@
     <MESSAGE value="first commit" />
     <MESSAGE value="commit" />
     <MESSAGE value="make hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="make hw" />
+    <MESSAGE value="make hw(all)" />
+    <option name="LAST_COMMIT_MESSAGE" value="make hw(all)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Task_alter_4 {
     public static void main(String[] args) {
-        String equation = "?29?9 + ???50 = 6??79";
+        String equation = "?2??9 + ???50 = 6???9";
 
         String firstNumber = equation.split("\\+")[0].replace(" ", "");
         String secondNumber = equation.split("\\+")[1].split("=")[0].replace(" ", "");
