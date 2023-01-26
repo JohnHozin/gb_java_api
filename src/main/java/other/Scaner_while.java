@@ -15,6 +15,7 @@ public class Scaner_while {
                 scanner.nextLine();
 //                System.out.print("Ошибка! ");
 
+
             }
         } while (n<=0);
         System.out.println(n);
