@@ -10,21 +10,21 @@ import java.util.Stack;
 
 public class Main3 {
     public static void main(String[] args) {
-        ArrayList<Integer> list = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
-            list.add(i);
-        }
-        Stack<String> strings = new Stack<>();
-        printStack(strings,list);
-        printQueue(strings);
-    }
-
-    private static void printQueue(Stack<String> strings, ArrayList<Integer> list) {
-        strings.push(list);
-    }
-
-    private static void printStack(Stack<String> strings) {
-
+//        ArrayList<Integer> list = new ArrayList<>();
+//        for (int i = 0; i < 10; i++) {
+//            list.add(i);
+//        }
+//        Stack<String> strings = new Stack<>();
+//        printStack(strings,list);
+//        printQueue(strings);
+//    }
+//
+//    private static void printQueue(Stack<String> strings, ArrayList<Integer> list) {
+//        strings.push(list);
+//    }
+//
+//    private static void printStack(Stack<String> strings) {
+//
     }
 
 }
