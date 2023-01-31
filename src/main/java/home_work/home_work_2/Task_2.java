@@ -1,4 +1,4 @@
-package home_work_2;
+package home_work.home_work_2;
 
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
