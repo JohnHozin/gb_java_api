@@ -1,0 +1,8 @@
+07/02/2023 13:18:12   java.util.InputMismatchException
+	at java.base/java.util.Scanner.throwFor(Scanner.java:939)
+	at java.base/java.util.Scanner.next(Scanner.java:1594)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
+	at home_work.home_work_4.Task_1.inputText(Task_1.java:48)
+	at home_work.home_work_4.Task_1.main(Task_1.java:20)
+
