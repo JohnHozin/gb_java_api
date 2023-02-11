@@ -70,9 +70,7 @@ public class Main {
         while (true) {
             switch (inputNumber(tilda + firstText + choose)) {
                 case (1):
-                    for (NoteBook noteBook : noteBooks) {
-                        System.out.println(noteBook);
-                    }
+                    printList(noteBooks);
                     break;
                 case (2):
                     Map<String, String> map = new HashMap<>();
