@@ -47,6 +47,16 @@ public class Zoo {
         return result;
     }
 
+    public List<Swimable> getSwimable(){
+        List<Swimable> result = new ArrayList<>();
+        for (Animal animal: animals) {
+            if (animal instanceof Swimable) {
+                result.add((Swimable) animal);
+            }
+        }
+        return result;
+    }
+
     public Runnable getWinner(){
         List<Runnable> list = getRunable();
         Runnable winner = list.get(0);
@@ -64,6 +74,17 @@ public class Zoo {
         for (Flyable flyable: list){
             if (flyable.speedOfFly() > winner.speedOfFly()){
                 winner = flyable;
+            }
+        }
+        return winner;
+    }
+
+    public Swimable getWinnerSwim(){
+        List<Swimable> list = getSwimable();
+        Swimable winner = list.get(0);
+        for (Swimable swimable: list){
+            if (swimable.speedOfSwim() > winner.speedOfSwim()){
+                winner = swimable;
             }
         }
         return winner;

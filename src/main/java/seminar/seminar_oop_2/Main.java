@@ -6,7 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Zoo zoo = new Zoo();
         zoo.addAnimals(List.of(new Cat("Barsik"),new Dog("Sharik"), new Rabbit("Whik"),
-                new Cow("Murka"), new Duck("Krya"), new Butterfly("Flay")));
+                new Cow("Murka"), new Duck("Krya"), new Butterfly("Flay"),
+                new Shark("BigWhite"), new Crocodile("Gandy")));
 
         for (Sayable animal: zoo.getSayable()){
             System.out.println(animal.say());
@@ -22,7 +23,12 @@ public class Main {
             System.out.println(flyable);
         }
 
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println(zoo.getWinner());
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
         System.out.println(zoo.getWinnerFly());
+        System.out.println("~~~~~~~~~~~~~~~~~~~~~~");
+        System.out.println(zoo.getWinnerSwim());
+
     }
 }
