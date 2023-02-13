@@ -9,6 +9,14 @@ public class CurledProduct extends Product{
         this.longevity = longevity;
     }
 
+    public int getLongevity() {
+        return longevity;
+    }
+
+    public void setLongevity(int longevity) {
+        this.longevity = longevity;
+    }
+
     @Override
     public String toString() {
         return String.format("%s longevity = %d;", super.toString(), longevity);

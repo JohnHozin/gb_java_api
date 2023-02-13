@@ -13,6 +13,14 @@ public class Beer extends Product{
         this.alcohol = alcohol;
     }
 
+    public int getAlcohol() {
+        return alcohol;
+    }
+
+    public void setAlcohol(int alcohol) {
+        this.alcohol = alcohol;
+    }
+
     @Override
     public String toString() {
         return String.format("%s alcohol = %d;", super.toString(), alcohol);

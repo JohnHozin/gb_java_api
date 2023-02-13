@@ -7,10 +7,6 @@ public class VendingMachine {
     private List<Product> products = new ArrayList<>();
     private Double money = 0.0;
 
-//    public VendingMachine(List<Product> products) {
-//        this.products = products;
-//    }
-
 
     public List<Product> getProducts() {
         return products;
@@ -55,9 +51,8 @@ public class VendingMachine {
         for (Product prod : products) {
             sb.append(prod).append("\n");
         }
-        sb.append(money);
+        sb.append("money in VendingMachine = " + money);
+        sb.append("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         return sb.toString();
     }
-
-
 }
