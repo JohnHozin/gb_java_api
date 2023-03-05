@@ -47,6 +47,6 @@ public class Ranged implements Weapon{
 
     @Override
     public int damage() {
-        return 0;
+        return damagePoint;
     }
 }

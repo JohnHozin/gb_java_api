@@ -20,13 +20,13 @@ public abstract class BaseHero <W extends Weapon>{
     }
 
     public boolean hit(BaseHero recepient){
-        int damage = weapon.damage();
+        int damage = damageFork();
         return !recepient.reduceHealth(damage);
     }
 
     public int damageFork(){
         Random random = new Random();
-        return random.nextInt()
+        return random.nextInt(weapon.damage());
     }
 
     public boolean reduceHealth(int damage){
