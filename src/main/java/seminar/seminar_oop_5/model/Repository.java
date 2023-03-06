@@ -8,4 +8,8 @@ public interface Repository {
     String CreateUser(User user);
 
     void deleteUser(String userId);
+
+    void updateUser(String userId, User user);
+
+    void changeDivider();
 }

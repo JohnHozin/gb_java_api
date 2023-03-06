@@ -14,6 +14,8 @@ public class ViewUser {
         this.userController = userController;
     }
 
+    public static String divider = ",";
+
     public void run() {
         Commands com = Commands.NONE;
 
@@ -33,18 +35,64 @@ public class ViewUser {
                         caseList();
                         break;
                     case DELETE:
-                        String id = prompt("Идентификатор пользователя: ");
-                        try {
-                            userController.deleteUser(id);
-                            System.out.println("user deleted");
-                        } catch (Exception e) {
-                            throw new RuntimeException(e);
-                        }
+                        caseDelete();
+                        break;
+                    case UPDATE:
+                        caseUpdate();
+                        break;
+                    case DIVIDER:
+                        caseDivider();
                         break;
                 }
             } catch (Exception e) {
                 System.out.println("Произошла ошибка, " + e.getMessage());
             }
+        }
+    }
+
+    private void caseDivider() {
+        String choice = prompt("1) .\n2) ,\n3) ;\nВыберете разделитель: ");
+        switch (choice){
+            case "1":
+                divider = ".";
+                break;
+            case "3":
+                divider = ";";
+                break;
+            default:
+                divider = ",";
+                break;
+        }
+        userController.changeDivider();
+    }
+
+    private void caseUpdate() {
+        String id = prompt("Идентификатор пользователя: ");
+        try {
+            User user = userController.readUser(id);
+            System.out.println("Имя: " + user.getFirstName());
+            String firstName = prompt("Имя: ");
+            System.out.println("Фамилия: " + user.getLastName());
+            String lastName = prompt("Фамилия: ");
+            System.out.println("Номер телефона: " + user.getPhone());
+            String phone = prompt("Номер телефона: ");
+            /**   можно создать нового юзера, а старого удалить. Идентификатор изменится          **/
+//                            userController.saveUser(new User(firstName, lastName, phone));
+//                            userController.deleteUser(id);
+            /**   можно сохранить идентификатор, но запись сместится в конец   **/
+            userController.updateUser(id, new User(firstName, lastName, phone));
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    private void caseDelete() {
+        String id = prompt("Идентификатор пользователя: ");
+        try {
+            userController.deleteUser(id);
+            System.out.println("пользователь удалён");
+        } catch (Exception e) {
+            throw new RuntimeException(e);
         }
     }
 

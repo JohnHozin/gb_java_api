@@ -4,11 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RepositoryFile implements Repository {
-    private UserMapper mapper = new UserMapper();
+    private Mapper mapper;
     private FileOperation fileOperation;
 
-    public RepositoryFile(FileOperation fileOperation) {
+    public RepositoryFile(FileOperation fileOperation, Mapper mapper) {
         this.fileOperation = fileOperation;
+        this.mapper = mapper;
     }
 
     @Override
@@ -63,5 +64,29 @@ public class RepositoryFile implements Repository {
         }
         saveRepository(users);
 
+    }
+
+    @Override
+    public void updateUser(String userId, User updateUser){
+        List<User> users = getAllUsers();
+
+        User foundUser = null;
+        for (User user : users) {
+            if (user.getId().equals(userId)) {
+                foundUser = user;
+            }
+        }
+        if (foundUser != null) {
+            users.remove(foundUser);
+            updateUser.setId(userId);
+            users.add(updateUser);
+            saveRepository(users);
+        }
+    }
+
+    @Override
+    public void changeDivider() {
+        List<User> users = getAllUsers();
+        saveRepository(users);
     }
 }

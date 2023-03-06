@@ -26,7 +26,6 @@ public class UserController {
                 return user;
             }
         }
-
         throw new Exception("User not found");
     }
 
@@ -37,5 +36,13 @@ public class UserController {
 
     public void deleteUser(String userId){
         repository.deleteUser(userId);
+    }
+
+    public void updateUser(String userId, User user){
+        repository.updateUser(userId, user);
+    }
+
+    public void changeDivider(){
+        repository.changeDivider();
     }
 }
