@@ -1,17 +1,14 @@
 package home_work.home_work_oop_6.model;
 
-import seminar.seminar_oop_5.model.User;
-
 import java.util.List;
 
 public interface Repository {
-    List<seminar.seminar_oop_5.model.User> getAllUsers();
+    List<Note> getAllNotes();
 
-    String CreateUser(seminar.seminar_oop_5.model.User user);
+    String CreateNote(Note note);
 
-    void deleteUser(String userId);
+    void deleteNote(String noteId);
 
-    void updateUser(String userId, User user);
+    void updateNote(String noteId, Note note);
 
-    void changeDivider();
 }

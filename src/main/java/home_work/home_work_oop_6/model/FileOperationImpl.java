@@ -1,7 +1,5 @@
 package home_work.home_work_oop_6.model;
 
-import seminar.seminar_oop_5.model.FileOperation;
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

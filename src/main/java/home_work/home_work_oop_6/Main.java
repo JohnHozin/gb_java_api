@@ -1,8 +1,8 @@
 package home_work.home_work_oop_6;
 
-import seminar.seminar_oop_5.controllers.UserController;
-import seminar.seminar_oop_5.model.*;
-import seminar.seminar_oop_5.views.ViewUser;
+import home_work.home_work_oop_6.controllers.NoteController;
+import home_work.home_work_oop_6.model.*;
+import home_work.home_work_oop_6.views.ViewNote;
 
 /**
  * Написать проект, "Записки", содержащий работу с записками из консоли (можно прочитать все записки, создать одну
@@ -14,10 +14,10 @@ import seminar.seminar_oop_5.views.ViewUser;
 
 public class Main {
     public static void main(String[] args) {
-        FileOperation fileOperation = new FileOperationImpl("src/main/java/home_work/home_work_oop_6/resources/users.json");
-        Repository repository = new RepositoryFile(fileOperation, new UserMapper());
-        UserController controller = new UserController(repository);
-        ViewUser view = new ViewUser(controller);
+        FileOperation fileOperation = new FileOperationImpl("src/main/java/home_work/home_work_oop_6/resources/notes.txt");
+        Repository repository = new RepositoryFile(fileOperation, new NoteMapper());
+        NoteController controller = new NoteController(repository);
+        ViewNote view = new ViewNote(controller);
         view.run();
     }
 }

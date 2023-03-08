@@ -52,4 +52,16 @@ public class Team<T extends BaseHero> implements Iterable<T> {
         }
         return sumDamage;
     }
+
+    public BaseHero getWeakShield() {
+        double weakShield = 0;
+        BaseHero baseHero = null;
+        for (T item : warriors) {
+                if (weakShield < item.shield.defence()) {
+                    weakShield = item.shield.defence();
+                    baseHero = item;
+                }
+        }
+        return baseHero;
+    }
 }

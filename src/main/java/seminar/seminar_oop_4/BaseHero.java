@@ -8,15 +8,28 @@ import java.util.Random;
  * На основе класса Warrior создать различные типы воинов, например, лучник, меченосец, ополченец и т.п. У лучника добавить поле расстояние поражения.
  * Создать различные виды вооружения, например, меч, лук, лопата. Обеспечить, чтобы определенный тип воина мог нести только определенной оружие. Можно на определенное оружие добавить уникальные признаки, например, у лука - дальность стрельбы.
  */
-public abstract class BaseHero <W extends Weapon>{
+public abstract class BaseHero <W extends Weapon, T extends  Shield>{
     private int health;
     private String name;
     protected W weapon;
+    protected T shield;
 
     public BaseHero(int health, String name, W weapon) {
         this.health = health;
         this.name = name;
         this.weapon = weapon;
+        this.shield = (T) new NoneShield();
+    }
+
+    public BaseHero(int health, String name, W weapon, T shield) {
+        if (shield instanceof HardShield){
+            this.health = health + ((HardShield) shield).getDefencePoint();
+        } else {
+            this.health = health;
+        }
+        this.name = name;
+        this.weapon = weapon;
+        this.shield = shield;
     }
 
     public boolean hit(BaseHero recepient){
@@ -26,7 +39,7 @@ public abstract class BaseHero <W extends Weapon>{
 
     public int damageFork(){
         Random random = new Random();
-        return random.nextInt(weapon.damage());
+        return random.nextInt((int)(weapon.damage()*shield.defence()));
     }
 
     public boolean reduceHealth(int damage){

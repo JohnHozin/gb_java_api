@@ -1,6 +1,6 @@
 package seminar.seminar_oop_4;
 
-public class Archer extends BaseHero<Ranged>{
+public class Archer extends BaseHero<Ranged,NoneShield>{
     public Archer(int health, String name, Ranged ranged) {
         super(health, name, ranged);
     }

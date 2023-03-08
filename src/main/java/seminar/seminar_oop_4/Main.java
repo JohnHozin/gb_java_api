@@ -30,19 +30,33 @@ public class Main {
         System.out.println(squadA.getMaxRange());
         System.out.println(squadA.getSumDamage());
 
-        Footman footman1 = new Footman(77,"marks", new Melee("book",30));
-        Footman footman2 = new Footman(66,"adamS", new Melee("weights",45));
+        System.out.println("~~~~~~~~~~~~~~~~~");
 
-        while (footman1.getHealth()>0 && footman2.getHealth()>0){
+//        Footman footman1 = new Footman(80,"marks", new Melee("book",15));
+        Footman footman1 = new Footman(80, "marks", new Melee("book", 15), new HardShield("ironShield", 550));
+        Footman footman2 = new Footman(100, "adamS", new Melee("weights", 45));
+
+        while (footman1.getHealth() > 0 && footman2.getHealth() > 0) {
             footman1.hit(footman2);
             System.out.println(footman2);
             footman2.hit(footman1);
             System.out.println(footman1);
         }
-        if (footman1.getHealth()>0){
+        if (footman1.getHealth() > 0) {
             System.out.println("Победил " + footman1.getName());
         } else {
             System.out.println("Победил " + footman2.getName());
         }
+
+        System.out.println("~~~~~~~~~~~~~~~~~");
+
+        Team<Footman> squadB = new Team<>();
+        squadB.add(new Footman(12, "ivan", new Melee("sword", 30), new SimpleShield("door")));
+        squadB.add(new Footman(12, "ivan", new Melee("sword", 30), new SimpleShield("door")));
+        squadB.add(new Footman(80, "marks", new Melee("book", 15), new HardShield("ironShield", 550)));
+        squadB.add(new Footman(100, "adamS", new Melee("weights", 45)));
+
+        System.out.println(squadB.getWeakShield());
+
     }
 }

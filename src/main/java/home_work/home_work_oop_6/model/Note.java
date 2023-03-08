@@ -6,17 +6,18 @@ public class Note {
     private String id = "";
     private String header;
     private String text;
-    private LocalDateTime date;
+    private String date;
 
-    public Note(String header, String text, LocalDateTime date) {
+    public Note(String header, String text) {
         this.header = header;
         this.text = text;
-        this.date = LocalDateTime.now();
+        this.date = LocalDateTime.now().toString().replace("T"," ");
     }
 
-    public Note(String id, String header, String text, LocalDateTime date) {
-        this(header, text, date);
+    public Note(String id, String header, String text, String date) {
+        this(header, text);
         this.id = id;
+        this.date = date;
     }
 
     public String getId() {
@@ -27,23 +28,23 @@ public class Note {
         this.id = id;
     }
 
-    public String getFirstName() {
+    public String getHeader() {
         return header;
     }
 
-    public void setFirstName(String header) {
+    public void setHeader(String header) {
         this.header = header;
     }
 
-    public String getLastName() {
+    public String getText() {
         return text;
     }
 
-    public void setLastName(String text) {
+    public void setText(String text) {
         this.text = text;
     }
 
-    public LocalDateTime getPhone() {
+    public String getDate() {
         return date;
     }
 
