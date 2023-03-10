@@ -1,0 +1,240 @@
+10-03-2023 16:44:07 : start program
+10-03-2023 16:44:07 : start constructor in FileOperationImpl
+10-03-2023 16:44:07 : end constructor in FileOperationImpl
+10-03-2023 16:44:07 : start constructor in RepositoryFile
+10-03-2023 16:44:07 : end constructor in RepositoryFile
+10-03-2023 16:44:07 : start constructor in NoteController
+10-03-2023 16:44:07 : end constructor in NoteController
+10-03-2023 16:44:07 : start method run in ViewNote
+10-03-2023 16:44:07 : start method prompt in ViewNote
+10-03-2023 16:44:07 : end method prompt in ViewNote
+10-03-2023 16:44:09 : start operation LIST
+10-03-2023 16:44:09 : start method caseList in ViewNote
+10-03-2023 16:44:09 : start method readNotes in NoteController
+10-03-2023 16:44:09 : start method getAllNotes in RepositoryFile
+10-03-2023 16:44:09 : start method readAllLines in FileOperationImpl
+10-03-2023 16:44:09 : end method readAllLines in FileOperationImpl
+10-03-2023 16:44:09 : end method getAllNotes in RepositoryFile
+10-03-2023 16:44:09 : end method readNotes in NoteController
+10-03-2023 16:44:09 : end method caseList in ViewNote
+10-03-2023 16:44:09 : end operation LIST
+10-03-2023 16:44:09 : end method run in ViewNote
+10-03-2023 16:44:09 : start method prompt in ViewNote
+10-03-2023 16:44:09 : end method prompt in ViewNote
+10-03-2023 16:44:11 : close program
+
+10-03-2023 16:45:02 : start program
+10-03-2023 16:45:02 : start constructor in FileOperationImpl
+10-03-2023 16:45:02 : end constructor in FileOperationImpl
+10-03-2023 16:45:02 : start constructor in RepositoryFile
+10-03-2023 16:45:02 : end constructor in RepositoryFile
+10-03-2023 16:45:02 : start constructor in NoteController
+10-03-2023 16:45:02 : end constructor in NoteController
+10-03-2023 16:45:02 : start method run in ViewNote
+10-03-2023 16:45:02 : start method prompt in ViewNote
+10-03-2023 16:45:02 : end method prompt in ViewNote
+10-03-2023 16:45:04 : start operation READ
+10-03-2023 16:45:04 : start method caseRead in ViewNote
+10-03-2023 16:45:04 : start method prompt in ViewNote
+10-03-2023 16:45:04 : end method prompt in ViewNote
+10-03-2023 16:45:05 : start method readNote in NoteController
+10-03-2023 16:45:05 : start method getAllNotes in RepositoryFile
+10-03-2023 16:45:05 : start method readAllLines in FileOperationImpl
+10-03-2023 16:45:05 : end method readAllLines in FileOperationImpl
+10-03-2023 16:45:05 : end method getAllNotes in RepositoryFile
+10-03-2023 16:45:05 : end method readNote in NoteController
+10-03-2023 16:45:05 : end method caseRead in ViewNote
+10-03-2023 16:45:05 : end operation READ
+10-03-2023 16:45:05 : end method run in ViewNote
+10-03-2023 16:45:05 : start method prompt in ViewNote
+10-03-2023 16:45:05 : end method prompt in ViewNote
+10-03-2023 16:45:09 : start operation LIST
+10-03-2023 16:45:09 : start method caseList in ViewNote
+10-03-2023 16:45:09 : start method readNotes in NoteController
+10-03-2023 16:45:09 : start method getAllNotes in RepositoryFile
+10-03-2023 16:45:09 : start method readAllLines in FileOperationImpl
+10-03-2023 16:45:09 : end method readAllLines in FileOperationImpl
+10-03-2023 16:45:09 : end method getAllNotes in RepositoryFile
+10-03-2023 16:45:09 : end method readNotes in NoteController
+10-03-2023 16:45:09 : end method caseList in ViewNote
+10-03-2023 16:45:09 : end operation LIST
+10-03-2023 16:45:09 : end method run in ViewNote
+10-03-2023 16:45:09 : start method prompt in ViewNote
+10-03-2023 16:45:09 : end method prompt in ViewNote
+10-03-2023 16:45:20 : close program
+
+10-03-2023 16:45:23 : start program
+10-03-2023 16:45:23 : start constructor in FileOperationImpl
+10-03-2023 16:45:23 : end constructor in FileOperationImpl
+10-03-2023 16:45:23 : start constructor in RepositoryFile
+10-03-2023 16:45:23 : end constructor in RepositoryFile
+10-03-2023 16:45:23 : start constructor in NoteController
+10-03-2023 16:45:23 : end constructor in NoteController
+10-03-2023 16:45:23 : start method run in ViewNote
+10-03-2023 16:45:23 : start method prompt in ViewNote
+10-03-2023 16:45:23 : end method prompt in ViewNote
+10-03-2023 16:45:29 : start operation CREATE
+10-03-2023 16:45:29 : start method caseCreate in ViewNote
+10-03-2023 16:45:29 : start method prompt in ViewNote
+10-03-2023 16:45:29 : end method prompt in ViewNote
+10-03-2023 16:45:33 : start method prompt in ViewNote
+10-03-2023 16:45:33 : end method prompt in ViewNote
+10-03-2023 16:45:36 : start method saveNote in NoteController
+10-03-2023 16:45:36 : start method CreateNote in RepositoryFile
+10-03-2023 16:45:36 : start method getAllNotes in RepositoryFile
+10-03-2023 16:45:36 : start method readAllLines in FileOperationImpl
+10-03-2023 16:45:36 : end method readAllLines in FileOperationImpl
+10-03-2023 16:45:36 : end method getAllNotes in RepositoryFile
+10-03-2023 16:45:36 : start method saveRepository in RepositoryFile
+10-03-2023 16:45:36 : start method saveAllLines in FileOperationImpl
+10-03-2023 16:45:36 : end method saveAllLines in FileOperationImpl
+10-03-2023 16:45:36 : end method saveRepository in RepositoryFile
+10-03-2023 16:45:36 : end method CreateNote in RepositoryFile
+10-03-2023 16:45:36 : end method saveNote in NoteController
+10-03-2023 16:45:36 : end method caseCreate in ViewNote
+10-03-2023 16:45:36 : end operation CREATE
+10-03-2023 16:45:36 : end method run in ViewNote
+10-03-2023 16:45:36 : start method prompt in ViewNote
+10-03-2023 16:45:36 : end method prompt in ViewNote
+10-03-2023 16:45:41 : start operation LIST
+10-03-2023 16:45:41 : start method caseList in ViewNote
+10-03-2023 16:45:41 : start method readNotes in NoteController
+10-03-2023 16:45:41 : start method getAllNotes in RepositoryFile
+10-03-2023 16:45:41 : start method readAllLines in FileOperationImpl
+10-03-2023 16:45:41 : end method readAllLines in FileOperationImpl
+10-03-2023 16:45:41 : end method getAllNotes in RepositoryFile
+10-03-2023 16:45:41 : end method readNotes in NoteController
+10-03-2023 16:45:41 : end method caseList in ViewNote
+10-03-2023 16:45:41 : end operation LIST
+10-03-2023 16:45:41 : end method run in ViewNote
+10-03-2023 16:45:41 : start method prompt in ViewNote
+10-03-2023 16:45:41 : end method prompt in ViewNote
+10-03-2023 16:46:55 : close program
+
+10-03-2023 16:47:00 : start program
+10-03-2023 16:47:00 : start constructor in FileOperationImpl
+10-03-2023 16:47:00 : end constructor in FileOperationImpl
+10-03-2023 16:47:00 : start constructor in RepositoryFile
+10-03-2023 16:47:00 : end constructor in RepositoryFile
+10-03-2023 16:47:00 : start constructor in NoteController
+10-03-2023 16:47:00 : end constructor in NoteController
+10-03-2023 16:47:00 : start method run in ViewNote
+10-03-2023 16:47:00 : start method prompt in ViewNote
+10-03-2023 16:47:00 : end method prompt in ViewNote
+10-03-2023 16:47:03 : start operation DELETE
+10-03-2023 16:47:03 : start method caseDelete in ViewNote
+10-03-2023 16:47:03 : start method prompt in ViewNote
+10-03-2023 16:47:03 : end method prompt in ViewNote
+10-03-2023 16:47:04 : start method deleteNote in NoteController
+10-03-2023 16:47:04 : start method deleteNote in RepositoryFile
+10-03-2023 16:47:04 : start method getAllNotes in RepositoryFile
+10-03-2023 16:47:04 : start method readAllLines in FileOperationImpl
+10-03-2023 16:47:04 : end method readAllLines in FileOperationImpl
+10-03-2023 16:47:04 : end method getAllNotes in RepositoryFile
+10-03-2023 16:47:04 : start method saveRepository in RepositoryFile
+10-03-2023 16:47:04 : start method saveAllLines in FileOperationImpl
+10-03-2023 16:47:04 : end method saveAllLines in FileOperationImpl
+10-03-2023 16:47:04 : end method saveRepository in RepositoryFile
+10-03-2023 16:47:04 : end method deleteNote in RepositoryFile
+10-03-2023 16:47:04 : end method deleteNote in NoteController
+10-03-2023 16:47:04 : end method caseDelete in ViewNote
+10-03-2023 16:47:04 : end operation DELETE
+10-03-2023 16:47:04 : end method run in ViewNote
+10-03-2023 16:47:04 : start method prompt in ViewNote
+10-03-2023 16:47:04 : end method prompt in ViewNote
+10-03-2023 16:47:08 : start operation LIST
+10-03-2023 16:47:08 : start method caseList in ViewNote
+10-03-2023 16:47:08 : start method readNotes in NoteController
+10-03-2023 16:47:08 : start method getAllNotes in RepositoryFile
+10-03-2023 16:47:08 : start method readAllLines in FileOperationImpl
+10-03-2023 16:47:08 : end method readAllLines in FileOperationImpl
+10-03-2023 16:47:08 : end method getAllNotes in RepositoryFile
+10-03-2023 16:47:08 : end method readNotes in NoteController
+10-03-2023 16:47:08 : end method caseList in ViewNote
+10-03-2023 16:47:08 : end operation LIST
+10-03-2023 16:47:08 : end method run in ViewNote
+10-03-2023 16:47:08 : start method prompt in ViewNote
+10-03-2023 16:47:08 : end method prompt in ViewNote
+10-03-2023 16:47:14 : close program
+
+10-03-2023 16:48:26 : start program
+10-03-2023 16:48:27 : start constructor in FileOperationImpl
+10-03-2023 16:48:27 : end constructor in FileOperationImpl
+10-03-2023 16:48:27 : start constructor in RepositoryFile
+10-03-2023 16:48:27 : end constructor in RepositoryFile
+10-03-2023 16:48:27 : start constructor in NoteController
+10-03-2023 16:48:27 : end constructor in NoteController
+10-03-2023 16:48:27 : start method run in ViewNote
+10-03-2023 16:48:27 : start method prompt in ViewNote
+10-03-2023 16:48:27 : end method prompt in ViewNote
+10-03-2023 16:48:29 : start operation LIST
+10-03-2023 16:48:29 : start method caseList in ViewNote
+10-03-2023 16:48:29 : start method readNotes in NoteController
+10-03-2023 16:48:29 : start method getAllNotes in RepositoryFile
+10-03-2023 16:48:29 : start method readAllLines in FileOperationImpl
+10-03-2023 16:48:29 : end method readAllLines in FileOperationImpl
+10-03-2023 16:48:29 : end method getAllNotes in RepositoryFile
+10-03-2023 16:48:29 : end method readNotes in NoteController
+10-03-2023 16:48:29 : end method caseList in ViewNote
+10-03-2023 16:48:29 : end operation LIST
+10-03-2023 16:48:29 : end method run in ViewNote
+10-03-2023 16:48:29 : start method prompt in ViewNote
+10-03-2023 16:48:29 : end method prompt in ViewNote
+10-03-2023 16:48:31 : close program
+
+10-03-2023 16:48:43 : start program
+10-03-2023 16:48:43 : start constructor in FileOperationImpl
+10-03-2023 16:48:43 : end constructor in FileOperationImpl
+10-03-2023 16:48:43 : start constructor in RepositoryFile
+10-03-2023 16:48:43 : end constructor in RepositoryFile
+10-03-2023 16:48:43 : start constructor in NoteController
+10-03-2023 16:48:43 : end constructor in NoteController
+10-03-2023 16:48:43 : start method run in ViewNote
+10-03-2023 16:48:43 : start method prompt in ViewNote
+10-03-2023 16:48:43 : end method prompt in ViewNote
+10-03-2023 16:48:49 : start operation UPDATE
+10-03-2023 16:48:49 : start method caseUpdate in ViewNote
+10-03-2023 16:48:49 : start method prompt in ViewNote
+10-03-2023 16:48:49 : end method prompt in ViewNote
+10-03-2023 16:48:51 : start method readNote in NoteController
+10-03-2023 16:48:51 : start method getAllNotes in RepositoryFile
+10-03-2023 16:48:51 : start method readAllLines in FileOperationImpl
+10-03-2023 16:48:51 : end method readAllLines in FileOperationImpl
+10-03-2023 16:48:51 : end method getAllNotes in RepositoryFile
+10-03-2023 16:48:51 : end method readNote in NoteController
+10-03-2023 16:48:51 : start method prompt in ViewNote
+10-03-2023 16:48:51 : end method prompt in ViewNote
+10-03-2023 16:48:53 : start method prompt in ViewNote
+10-03-2023 16:48:53 : end method prompt in ViewNote
+10-03-2023 16:48:59 : start method updateNote in NoteController
+10-03-2023 16:48:59 : start method updateNote in RepositoryFile
+10-03-2023 16:48:59 : start method getAllNotes in RepositoryFile
+10-03-2023 16:48:59 : start method readAllLines in FileOperationImpl
+10-03-2023 16:48:59 : end method readAllLines in FileOperationImpl
+10-03-2023 16:48:59 : end method getAllNotes in RepositoryFile
+10-03-2023 16:48:59 : start method saveRepository in RepositoryFile
+10-03-2023 16:48:59 : start method saveAllLines in FileOperationImpl
+10-03-2023 16:48:59 : end method saveAllLines in FileOperationImpl
+10-03-2023 16:48:59 : end method saveRepository in RepositoryFile
+10-03-2023 16:48:59 : start method updateNote in RepositoryFile
+10-03-2023 16:48:59 : end method updateNote in NoteController
+10-03-2023 16:48:59 : end method caseUpdate in ViewNote
+10-03-2023 16:48:59 : end operation UPDATE
+10-03-2023 16:48:59 : end method run in ViewNote
+10-03-2023 16:48:59 : start method prompt in ViewNote
+10-03-2023 16:48:59 : end method prompt in ViewNote
+10-03-2023 16:49:02 : start operation LIST
+10-03-2023 16:49:02 : start method caseList in ViewNote
+10-03-2023 16:49:02 : start method readNotes in NoteController
+10-03-2023 16:49:02 : start method getAllNotes in RepositoryFile
+10-03-2023 16:49:02 : start method readAllLines in FileOperationImpl
+10-03-2023 16:49:02 : end method readAllLines in FileOperationImpl
+10-03-2023 16:49:02 : end method getAllNotes in RepositoryFile
+10-03-2023 16:49:02 : end method readNotes in NoteController
+10-03-2023 16:49:02 : end method caseList in ViewNote
+10-03-2023 16:49:02 : end operation LIST
+10-03-2023 16:49:02 : end method run in ViewNote
+10-03-2023 16:49:02 : start method prompt in ViewNote
+10-03-2023 16:49:02 : end method prompt in ViewNote
+10-03-2023 16:49:09 : close program
+
